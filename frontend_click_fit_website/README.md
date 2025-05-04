@@ -19,12 +19,13 @@ This process involves a server which is located inside the `image_upload` folder
 npm i
 ```
 3. After packages are installed you will see `node_modules` folder created inside `upload_image` folder
-4. Start the server by running (it will console `Server is running on port 4000` indicating server started)
+4. Start the server by running
 ```
 npm start
 ```
-5. Now you can go back to Click Fit page and Click upload image area or Drag and drop image on it, i will start uploading showing a progress indicator
-6. On the server side image is received and stored inside the `upload_image/public/uploads` folder and details like size, mimetype, etc of the image are consoled in the terminal.
+5. It will console `Server is running on port 4000` indicating server started
+6. Now you can go back to Click Fit page and Click upload image area or Drag and drop image on it, i will start uploading showing a progress indicator
+7. On the server side image is received and stored inside the `upload_image/public/uploads` folder and details like size, mimetype, etc of the image are consoled in the terminal.
 
 #### Explanation about server code
 
