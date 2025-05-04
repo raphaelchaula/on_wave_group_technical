@@ -14,9 +14,15 @@ In this task I have created three files `index.html`, `styles.css` and `script.j
 This process involves a server which is located inside the `image_upload` folder, the process is as follows:
 
 1. Open the folder `upload_image` in the terminal (command prompt)
-2. Install packages required to run the server by running `npm i` (You need to have Node.js installed in your computer)
+2. Install packages required to run the server by running (You need to have Node.js installed in your computer)
+```
+npm i
+```
 3. After packages are installed you will see `node_modules` folder created inside `upload_image` folder
-4. Start the server by running `npm start` it will console `Server is running on port 4000` indicating server started
+4. Start the server by running (it will console `Server is running on port 4000` indicating server started)
+```
+npm start
+```
 5. Now you can go back to Click Fit page and Click upload image area or Drag and drop image on it, i will start uploading showing a progress indicator
 6. On the server side image is received and stored inside the `upload_image/public/uploads` folder and details like size, mimetype, etc of the image are consoled in the terminal.
 
