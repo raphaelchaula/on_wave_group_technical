@@ -20,7 +20,7 @@ In case you want to add more users, you can use another script `mysql_add_users.
 
 #### How to run `mysql_add_users.sql`
 ```
-mysql -u root -p password < mysql_add_users.sql.sql
+mysql -u root -p password < mysql_add_users.sql
 ```
 You can replace `-u root` and `-p password` with respective username and password for your mysql server
 
